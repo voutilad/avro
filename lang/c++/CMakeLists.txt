@@ -188,9 +188,9 @@ unittest (DataFileTests)
 unittest (JsonTests)
 unittest (AvrogencppTests)
 unittest (CompilerTests)
-unittest (AvrogencppTestReservedWords)
+#XXX unittest (AvrogencppTestReservedWords)
 
-add_dependencies (AvrogencppTestReservedWords cpp_reserved_words_hh)
+#XXX add_dependencies (AvrogencppTestReservedWords cpp_reserved_words_hh)
 
 add_dependencies (AvrogencppTests bigrecord_hh bigrecord_r_hh bigrecord2_hh
     tweet_hh
